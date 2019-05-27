@@ -1,0 +1,13 @@
+.tableOne {
+  border: 3px solid grey;
+}
+
+.tableTwo {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 3px solid black;
+  padding: 5px;
+}

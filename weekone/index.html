@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cohort 137 - Day 1 - HTML !!!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Un tableau simple</h1>
+      <table class="tableOne">
+        <tr>
+          <td>As</td>
+          <td>Trèfle</td>
+        </tr>
+        <tr>
+          <td>Carreaux</td>
+          <td>Coeur</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h1>Un tableau complexe</h1>
+      <table class="tableTwo">
+        <tr>
+          <th colspan="2"></th>
+          <th colspan="2">Premier Groupe</th>
+          <th colspan="2">Deuxième Groupe</th>
+        </tr>
+        <tr>
+          <td></td>
+          <th>Personne</th>
+          <th>Singulier</th>
+          <th>Pluriel</th>
+          <th>Singulier</th>
+          <th>Pluriel</th>
+        </tr>
+        <tr>
+          <td rowspan="3">présent</td>
+          <td>1</td>
+          <td>je code</td>
+          <td>nous codons</td>
+          <td>je réussis</td>
+          <td>nous réussissons</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>tu codes</td>
+          <td>vous codez</td>
+          <td>tu réussis</td>
+          <td>vous réussissez</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>il/elle code</td>
+          <td>ils/elles codent</td>
+          <td>il/elle réussit</td>
+          <td>ils/elles réussissent</td>
+        </tr>
+      </table>
+
+      <h1>Liste Ordonnée</h1>
+      <ol start="1">
+        <li>Démarrer son navigateur</li>
+        <li>Ouvrir sa console</li>
+        <li>Coder !</li>
+      </ol>
+      <h1>Liste imbriquée</h1>
+
+      <ol start="1">
+        <li>élément de niveau 1.1</li>
+        <li>
+          élément de niveau 1.2
+          <ul>
+            <li>
+              premier sous élément du deuxième élément numéroté
+              <ol start="1">
+                <li>ajoutons-y une sous liste</li>
+                <li>est-elle numérotée</li>
+                <li>c'est toujours ok ?</li>
+              </ol>
+            </li>
+            <li>deuxième sous élément du deuxième élément numéroté</li>
+            <li>Troisème sous élément du deuxième élément numéroté</li>
+          </ul>
+        </li>
+        <li>élément du niveau 1.1</li>
+      </ol>
+    </div>
+  </body>
+</html>
